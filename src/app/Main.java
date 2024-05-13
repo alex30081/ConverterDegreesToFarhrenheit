@@ -3,7 +3,7 @@ package app;
 public class Main  {
 
 
-    private static double CONV_F_C = 0;
+    static double CONV_F_C = 0;
 
 
     public static void main(String[] args) {
