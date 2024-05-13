@@ -2,19 +2,17 @@ package app;
 
 public class Main  {
 
-
-    static double CONV_F_C = 0;
-
+    static double CONV_С_F = 0;
 
     public static void main(String[] args) {
-            System.out.println("Converter °F to °C!!!");
+            System.out.println("Converter °C to °F!!!");
 
-            double F = 32;
-            double celsius = convFrToCe(F);
+            double C = 0;
+            double celsius = convCeToFa(C);
             System.out.println("Result is " + celsius +  "°.");
         }
 
-        private static double convFrToCe(double F) {
-            return CONV_F_C = ((F - 32) * 5) / 9;
+        private static double convCeToFa(double C) {
+            return CONV_С_F = ((C * 9) / 5) + 32;
         }
 }
